@@ -1,0 +1,27 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  color: white;
+  width: 960px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoline {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logoline img {
+}
+
+.headerimage {
+}
