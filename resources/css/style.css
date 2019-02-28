@@ -3,11 +3,12 @@ html {
 }
 
 body {
-  background-color: black;
   font-family: helvetica;
   color: white;
   width: 960px;
 }
+
+/* Header section */
 
 .header {
   display: flex;
@@ -18,10 +19,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-size: 1rem;
+  background-color: black;
 }
 
 .logoline img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
 }
 
 .headerimage {
+  background-image: url(resources\moto.jpeg) repeat 0 0;
+  height: 25rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.headerimagecontent {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.headerimagecontent h5 {
+  font-size: 1rem;
+}
+
+.headerimagecontent h2 {
+  font-size: 2rem;
 }
