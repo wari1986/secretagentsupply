@@ -6,6 +6,7 @@ body {
   font-family: helvetica;
   color: white;
   width: 960px;
+  width: 100%;
 }
 
 /* Header section */
@@ -130,10 +131,9 @@ body {
   background-color: black;
   height: 5rem;
   text-align: left;
-  display: table-cell;
-  vertical-align: middle;
-  width: 960px;
+  display: block;
 }
 
 .footer p {
+  line-height: 5rem;
 }
