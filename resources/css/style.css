@@ -34,13 +34,16 @@ body {
 }
 
 .headerimage {
-  background-image: url("resources/images/moto.jpeg");
+  background-image: url("../images/moto.jpeg");
   background-color: inherit;
   height: 25rem;
   font-weight: bold;
   background-size: cover;
 }
 
+.headerimage .container {
+  padding-top: 9rem;
+}
 .headerimagecontent {
   display: flex;
   flex-direction: column;
@@ -66,6 +69,10 @@ body {
   background-color: firebrick;
   padding: 0.75rem 0;
   font-weight: bold;
+}
+
+.navbar .menuitem {
+  display: none;
 }
 
 .gallery {
@@ -107,6 +114,7 @@ body {
   padding-bottom: 4rem;
   width: 35%;
 }
+
 .location .top {
   display: block;
   background: black;
@@ -136,4 +144,19 @@ body {
 
 .footer p {
   line-height: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #glasses {
+    display: none;
+  }
+  .image {
+    width: 47%;
+  }
+  .navbar .item {
+    display: none;
+  }
+  .navbar .menuitem {
+    display: block;
+  }
 }
