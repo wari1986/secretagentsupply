@@ -159,4 +159,12 @@ body {
   .navbar .menuitem {
     display: block;
   }
+  @media only screen and (max-width: 470px;) {
+    .logoline span {
+      display: none;
+    }
+    .headerimage .container {
+      align-items: flex-end;
+    }
+  }
 }
